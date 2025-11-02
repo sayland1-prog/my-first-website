@@ -1,0 +1,5 @@
+:root { --max: 720px; }
+body { max-width: var(--max); margin: 40px auto; padding: 0 20px; }
+h1, h2 { line-height: 1.25; }
+a { transition: opacity .15s ease; }
+a:hover { opacity: .75; }
