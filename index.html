@@ -13,6 +13,21 @@
   <a href="https://github.com/sayland1-prog" class="btn">GitHubプロフィールを見る</a>
   <a href="#" class="btn" onclick="sayHello()">あいさつする</a>
   <a href="about.html" class="btn">このサイトについて</a>
+  <h2>メッセージを送ってみよう ✉️</h2>
+
+<form onsubmit="showMessage(event)">
+  <label for="name">お名前：</label><br>
+  <input type="text" id="name" placeholder="ここに名前を入力" required><br><br>
+
+  <label for="message">メッセージ：</label><br>
+  <textarea id="message" placeholder="メッセージを入力" required></textarea><br><br>
+
+  <button type="submit" class="btn">送信</button>
+</form>
+
+<!-- 結果を表示する場所 -->
+<p id="output"></p>
+
 
 </body>
   <script src="script.js"></script>
