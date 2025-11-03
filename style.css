@@ -42,3 +42,19 @@ a.btn {
 a.btn:hover {
   background: #004c99;
 }
+form {
+  margin-top: 40px;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
