@@ -21,6 +21,11 @@ p {
   font-size: 1.1rem;
   color: #555;
 }
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
 
 /* ===== ボタン風リンク ===== */
 a.btn {
